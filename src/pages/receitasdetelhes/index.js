@@ -21,7 +21,7 @@ function ReceitaDetalhes() {
       setLoadin(true);
     }
     fechtReceita();
-  }, []);
+  }, [render]);
   console.log(receita.ingredients);
 
 async function handleLike(){

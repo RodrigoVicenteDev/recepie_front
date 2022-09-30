@@ -15,7 +15,7 @@ function UserDetail() {
       setLoading(true);
     }
     catchUser();
-  }, []);
+  }, [render]);
 
   async function handlefav(element) {
     try {
